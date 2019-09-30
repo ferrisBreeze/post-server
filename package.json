@@ -1,0 +1,25 @@
+{
+  "name": "post-server",
+  "version": "1.0.0",
+  "description": "node upload server",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "form-data": "^2.3.3",
+    "formidable": "^1.2.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "upload"
+  ],
+  "author": "",
+  "license": "ISC"
+}
